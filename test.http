@@ -1,0 +1,70 @@
+POST http://localhost:3000/chat
+Content-Type: application/json
+
+{
+    "message": "Hola servidor"
+}
+
+###
+POST http://localhost:3000/chat
+Content-Type: application/json
+
+{
+}
+
+###
+
+POST http://localhost:3000/chat
+Content-Type: application/json
+
+{
+    "message": 12345
+}
+
+POST http://localhost:3000/chat
+Content-Type: application/json
+
+{}
+
+POST http://localhost:3000/chat
+Content-Type: application/json
+
+{
+  "message": 12345
+}
+
+POST http://localhost:3000/chat
+Content-Type: application/json
+
+{
+  "message": "¿Cuál es la capital de Colombia?"
+}
+
+POST http://localhost:3000/chat
+Content-Type: application/json
+
+{
+  "message": "Explícame qué es inteligencia artificial en una frase"
+}
+
+POST http://localhost:3000/chat
+Content-Type: application/json
+
+{
+  "message": "¿Cuál es la capital de Argentina?"
+}
+
+###
+POST http://localhost:3000/chat
+Content-Type: application/json
+
+{
+
+}
+
+POST http://localhost:3000/chat
+Content-Type: application/json
+
+{
+  "message": "¿Quién es Simon Borrero?"
+}
