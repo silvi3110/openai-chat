@@ -7,10 +7,6 @@ const client = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY
 });
 
-const getProfits = (starDate, endDate) => {
-  return { profits: 1000 }; // Ganancias de ejemplo
-}
-
 const app = express();
 
 app.use(express.json());
